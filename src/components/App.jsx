@@ -1,16 +1,16 @@
+import React from "react";
+import Counter from "./counter/Counter.jsx"
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+    <>
+      
+<Counter
+  initialGood={3}
+  initialNeutral={2}
+  initialBad={2}
+/>
+
+    </>
+  )
+}
